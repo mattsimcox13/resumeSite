@@ -1,3 +1,8 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
 /* Navbar styling */
 .navbar {
   margin-bottom: 0;
@@ -9,7 +14,8 @@
   opacity: 0.75;
 }
 
-.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus,
+.navbar-inverse .navbar-nav .active a,
+.navbar-inverse .navbar-nav .active a:focus,
 .navbar-inverse .navbar-nav .active a:hover {
   color: white;
   background-color: #4B9CD3;
@@ -23,4 +29,16 @@
   float: left;
   min-height: 55px;
   padding: 0 15px 5px;
+}
+
+.navbar .navbar-nav li a {
+  color: #D5D5D5;
+}
+
+/* Page styling */
+.landingImage {
+  height: 100%;
+  background-image: url("resources/overlook.jpg");
+  background-position: center center;
+  background-size: cover;
 }
