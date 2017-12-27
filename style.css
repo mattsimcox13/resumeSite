@@ -46,7 +46,7 @@ html, body {
 /* Page styling */
 .landingImage {
   height: 100%;
-  background-image: url("resources/overlook.jpg");
+  background-image: url("resources/overlook.png");
   background-position: center center;
   background-size: cover;
   display: block;
@@ -54,4 +54,31 @@ html, body {
 
 .header {
   text-align: center;
+  margin: 4% auto;
+}
+
+#profile {
+  max-width: 500px;
+  margin: auto;
+}
+
+#centerMe {
+  margin: auto;
+  position: float;
+}
+
+p {
+  padding: 20px;
+}
+
+@media (min-width: 1200px) {
+  p {
+    font-size: 1.05vw;
+    margin: auto;
+    padding: 20px;
+  }
+
+  #profile {
+    max-width: 75%;
+  }
 }
