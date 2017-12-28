@@ -48,7 +48,7 @@ html, body {
 /* Page styling */
 .landingImage {
   height: 100%;
-  background-image: url("resources/overlook.png");
+  background-image: url("resources/overlook.jpg");
   background-position: center center;
   background-size: cover;
   display: block;
@@ -57,7 +57,7 @@ html, body {
 @media (max-width: 768px) {
   .landingImage {
     height: 50%;
-    background-image: url("resources/overlook.png");
+    background-image: url("resources/overlook.jpg");
     background-position: center center;
     background-size: cover;
     display: block;
