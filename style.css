@@ -54,6 +54,16 @@ html, body {
   display: block;
 }
 
+@media (max-width: 768px) {
+  .landingImage {
+    height: 50%;
+    background-image: url("resources/overlook.png");
+    background-position: center center;
+    background-size: cover;
+    display: block;
+  }
+}
+
 .header {
   text-align: center;
   margin: 4% auto;
