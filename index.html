@@ -6,6 +6,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <script src="https://use.fontawesome.com/9c57fdb713.js"></script>
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -32,11 +34,12 @@
       </div>
       <div class = "collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About Me</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Motivation</a></li>
-          <li><a href="#">Contact</a></li>
+          <!-- Use fonticons to add interest to nav -->
+          <li class="active"><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#motivation">Motivation</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -44,11 +47,11 @@
 
   <!-- End of Navigation, beginning of site -->
 
-  <div class="container-fluid landingImage">
+  <div class="container-fluid landingImage" id="home">
     <!-- Empty container for full-page image -->
   </div>
 
-  <div class="container-fluid header">
+  <div class="container-fluid header" id="about">
     <div class="row">
       <div class="col-sm-12">
         <h1>ABOUT ME</h1>
@@ -56,7 +59,7 @@
     </div>
   </div>
 
-  <div class="containter-fluid" id="centerMe">
+  <div class="containter-fluid">
     <div class="row">
       <div class="col-lg-6 text-center" id="profile">
         <h2>Here's the thing...</h2>
@@ -81,7 +84,7 @@
     </div>
   </div>
 
-  <div class="container-fluid header">
+  <div class="container-fluid header" id="work">
     <div class="row">
       <div class="col-sm-12">
         <h1>WORK</h1>
@@ -95,7 +98,38 @@
   - Animate bars with javascript/css when done
   -->
 
-  <div class="container-fluid header">
+  <div class="container-fluid">
+    <div class="row" style="margin-bottom: 3%">
+      <div class="col-md-6">
+        <h3 class="smallHeading">IT Skills</h3>
+        <div class="meter">
+          <span style="width: 85%"></span>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h3 class="smallHeading">Communication</h3>
+        <div class="meter">
+          <span style="width: 80%"></span>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h3 class="smallHeading">Leadership</h3>
+        <div class="meter">
+          <span style="width: 97%"></span>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h3 class="smallHeading">Team Work</h3>
+        <div class="meter">
+          <span id="fullWidth" style="width: 100%"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid header" id="motivation">
     <div class="row">
       <div class="col-sm-12">
         <h1>MOTIVATION</h1>
@@ -103,7 +137,7 @@
     </div>
   </div>
 
-  <div class="container-fluid header">
+  <div class="container-fluid header" id="contact">
     <div class="row">
       <div class="col-sm-12">
         <h1>CONTACT</h1>

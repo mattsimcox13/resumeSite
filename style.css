@@ -74,11 +74,6 @@ html, body {
   margin: auto;
 }
 
-#centerMe {
-  margin: auto;
-  position: float;
-}
-
 p {
   padding: 20px;
 }
@@ -93,4 +88,39 @@ p {
   #profile {
     max-width: 75%;
   }
+}
+
+/* Work bar styling */
+.smallHeading {
+  text-align: center;
+}
+
+.meter {
+  height: 30px;  /* Can be anything */
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+	position: relative;
+	background: #767676;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 10px;
+}
+
+.meter span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #4B9CD3;
+  position: relative;
+  overflow: hidden;
+}
+
+.meter #fullWidth {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
