@@ -128,3 +128,8 @@ p {
 .tagContainer {
   margin-top: 1%;
 }
+
+#contactHead i {
+  margin: auto;
+  padding: 5%;
+}
