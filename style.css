@@ -125,8 +125,6 @@ p {
   border-bottom-right-radius: 20px;
 }
 
-/*.tagContainer {
-  width: 100%;
-  text-align: center;
-  margin-top: 2%;
-}*/
+.tagContainer {
+  margin-top: 1%;
+}
