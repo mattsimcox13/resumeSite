@@ -72,10 +72,20 @@ html, body {
 #sideImage {
   max-width: 500px;
   margin: auto;
+  max-height: 700px;
+}
+@media (max-width: 1800px) {
+  #sideImage {
+    margin-top: 50px;
+  }
 }
 
 p {
   padding: 20px;
+}
+
+p b {
+  color: #4B9CD3;
 }
 
 @media (min-width: 1200px) {
