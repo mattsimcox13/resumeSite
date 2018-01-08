@@ -154,3 +154,16 @@ p b {
   top: -50px;
   visibility: hidden;
 }
+
+/* Increase padding for motivation text */
+@media(min-width: 1200px) {
+  #motivationText {
+    font-size: 150%;
+  }
+}
+
+@media(min-width: 1400px) {
+  #motivationText {
+    font-size: 175%;
+  }
+}
